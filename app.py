@@ -24,11 +24,5 @@ def redirect_to_url(random_id):
     else:
         return abort(404)
 
-"""
-@app.route('/')
-def rootpath() :
-	return """ #<h2>givemetocode #project<h2><br><a href="https://givemetocode.com/">givemetocode.net</a>"""
-
-"""
 if __name__ == '__main__':
     app.run(debug=True)
